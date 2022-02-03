@@ -16,7 +16,7 @@ namespace VoyagerProductService.Api.Controllers
             _product = product;
         }
         [HttpPost("Scan")]
-        public IActionResult ScanProducts([FromBody] IEnumerable<string> products)
+        public ActionResult<decimal> ScanProducts([FromBody] IEnumerable<string> products)
         {
             return Ok(_product.ExecuteProcess(products.ToList()));
         }
