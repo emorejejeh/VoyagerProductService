@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using VoyagerProductService.Business;
+using VoyagerProductService.Business.BusinessLogics;
+using VoyagerProductService.Business.Interfaces;
 
 namespace VoyagerProductService.Api
 {
@@ -27,6 +30,8 @@ namespace VoyagerProductService.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddTransient<IProductService, ProductService>();
+            services.AddTransient<IProduct, Product>();
 
             services.AddSwaggerGen(swagger => {
                 //This is to generate the Default UI of Swagger Documentation    
