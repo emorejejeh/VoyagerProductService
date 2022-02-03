@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoyagerProductService", "VoyagerProductService\VoyagerProductService.csproj", "{AA540A33-6E34-47D7-B80B-5E466104D81F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA540A33-6E34-47D7-B80B-5E466104D81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA540A33-6E34-47D7-B80B-5E466104D81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA540A33-6E34-47D7-B80B-5E466104D81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA540A33-6E34-47D7-B80B-5E466104D81F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCC1D603-4A32-4200-8AC6-3977A5CA470C}
+	EndGlobalSection
+EndGlobal
