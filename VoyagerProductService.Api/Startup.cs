@@ -14,6 +14,8 @@ using Microsoft.OpenApi.Models;
 using VoyagerProductService.Business;
 using VoyagerProductService.Business.BusinessLogics;
 using VoyagerProductService.Business.Interfaces;
+using VoyagerProductService.Dal;
+using VoyagerProductService.Dal.Interfaces;
 
 namespace VoyagerProductService.Api
 {
@@ -32,7 +34,7 @@ namespace VoyagerProductService.Api
             services.AddControllers();
             services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IProduct, Product>();
-
+            services.AddSingleton<IProductData, ProductData>();
             services.AddSwaggerGen(swagger => {
                 //This is to generate the Default UI of Swagger Documentation    
                 swagger.SwaggerDoc("v1", new OpenApiInfo

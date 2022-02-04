@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoyagerProductService.Domai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoyagerProductService.Business", "VoyagerProductService.Business\VoyagerProductService.Business.csproj", "{07B41363-A169-4834-B3C1-5DA911DFC9D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoyagerProductService.Api", "VoyagerProductService.Api\VoyagerProductService.Api.csproj", "{A003C29D-DC08-4B9E-B4CE-0EF6E2F0E552}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoyagerProductService.Api", "VoyagerProductService.Api\VoyagerProductService.Api.csproj", "{A003C29D-DC08-4B9E-B4CE-0EF6E2F0E552}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoyagerProductService.Tests", "VoyagerProductService.Tests\VoyagerProductService.Tests.csproj", "{E1080880-19A7-4E22-8874-616CC494E8FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoyagerProductService.Tests", "VoyagerProductService.Tests\VoyagerProductService.Tests.csproj", "{E1080880-19A7-4E22-8874-616CC494E8FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoyagerProductService.Dal", "VoyagerProductService.Dal\VoyagerProductService.Dal.csproj", "{78D8A64A-FE0B-4A41-B1F0-EB1806359887}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E1080880-19A7-4E22-8874-616CC494E8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1080880-19A7-4E22-8874-616CC494E8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1080880-19A7-4E22-8874-616CC494E8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D8A64A-FE0B-4A41-B1F0-EB1806359887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D8A64A-FE0B-4A41-B1F0-EB1806359887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D8A64A-FE0B-4A41-B1F0-EB1806359887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D8A64A-FE0B-4A41-B1F0-EB1806359887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
